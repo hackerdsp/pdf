@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class 9 PDF Viewer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Class 9 PDF Viewer</h1>
+    <label for="subject">Select Subject:</label>
+    <select id="subject">
+      <option value="">--Choose a Subject--</option>
+      <option value="Class 9 Civics Solutions.pdf">Civics</option>
+      <option value="Class 9 Economics Solutions.pdf">Economics</option>
+      <option value="Class 9 English Beehives Solutions.pdf">English Beehives</option>
+      <option value="Class 9 English Moments Solutions.pdf">English Moments</option>
+      <option value="Class 9 Geography Solutions.pdf">Geography</option>
+      <option value="Class 9 History Solutions.pdf">History</option>
+      <option value="Class 9 Kritika Solutions.pdf">Kritika</option>
+      <option value="Class 9 Kshitij Solutions.pdf">Kshitij</option>
+      <option value="Class 9 Science Solutions.pdf">Science</option>
+    </select>
+    <div id="pdf-viewer">
+      <iframe id="pdf-iframe" src="" width="100%" height="600px"></iframe>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
